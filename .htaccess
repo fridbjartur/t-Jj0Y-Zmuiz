@@ -1,0 +1,9 @@
+RewriteEngine On
+
+RewriteRule ^player$ player.php [NC]
+RewriteRule ^home$ index.php [NC]
+RewriteRule ^play$ game.php [NC]
+RewriteRule ^highscores$ highscores.php [NC]
+RewriteRule ^settings$ settings.php [NC]
+RewriteRule ^logout$ logout.php [NC]
+RewriteRule ^api$ backend/api/main-api.php [NC]
